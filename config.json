@@ -1,0 +1,23 @@
+{
+  "command_prefix": "!",
+  "banned_words": [
+    "palavrao1",
+    "palavrao2",
+    "spamword"
+  ],
+  "banned_domains": [
+    "encurtador-suspeito.com",
+    "site-de-golpe.net"
+  ],
+  "block_discord_invites": true,
+  "max_mentions": 5,
+  "max_caps_percent": 70,
+  "min_length_for_caps_check": 10,
+  "spam_message_limit": 5,
+  "spam_time_window_seconds": 7,
+  "log_channel_name": "mod-logs",
+  "exempt_roles": ["moderador", "admin"],
+  "warn_limit_before_timeout": 3,
+  "timeout_minutes": 10,
+  "delete_notice_seconds": 6
+}
